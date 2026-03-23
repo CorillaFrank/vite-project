@@ -1,11 +1,12 @@
 # 🚀 Vite Project – Prueba de Concepto
 
-Este proyecto es una **prueba de concepto** desarrollada con **Vite + React + Tanstack Table**, enfocada en rendimiento, carga eficiente de componentes y manejo de datos mediante tablas dinámicas.
+Este proyecto es una **prueba de concepto** desarrollada con **Vite + React + TanStack Table**, enfocada en rendimiento, carga eficiente de componentes y manejo de datos mediante tablas dinámicas.
 
 ---
 
 ## 📁 Estructura del Proyecto
 
+```plaintext
 VITE-PROJECT
 │
 ├── node_modules/
@@ -19,7 +20,7 @@ VITE-PROJECT
 │   ├── App.css
 │   ├── App.jsx
 │   ├── index.css
-│   ├── main.jsx
+│   └── main.jsx
 │
 ├── .gitignore
 ├── eslint.config.js
@@ -30,16 +31,14 @@ VITE-PROJECT
 ├── README.md
 └── vite.config.js
 
-## 🧰 Tecnologías Utilizadas
-- ⚡ **Mockaroo**
-- ⚛ **Tanstack Table**
-- ⚛ **Nodejs**
-- ⚛ **Dayjs**
-- ⚛ **React**
-- ⚡ **Vite**
-- 🎨 **CSS**
-- 📄 **JSON (Mock Data)**
-- 🖥 **JavaScript ESModules**
+🧰 Tecnologías Utilizadas
 
----
-
+⚡ Mockaroo
+📊 TanStack Table
+🟩 Node.js
+📅 Day.js
+⚛ React
+⚡ Vite
+🎨 CSS
+📄 JSON (Mock Data)
+🖥 JavaScript ESModules
