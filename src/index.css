@@ -1,0 +1,62 @@
+body{
+    padding: 7rem;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid black;
+}
+thead,tfoot{
+    background-color: #333;
+    color: white;
+}
+th,td{
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: left;
+}   
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 12px;
+  background: #f7f7f7;
+  display: inline-block;
+  animation: fadeSlideIn 3s ease-out infinite;
+  /*                 ^^^^^^^^^^^^^^^^^^^^^^^
+                     AQUÍ está el bucle infinito */
+}
+
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0.6;
+    transform: translateY(8px) scale(0.97);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0.6;
+    transform: translateY(8px) scale(0.97);
+  }
+}
+
+label, p1 {
+  margin-right: 10px;
+}
+
+input {
+  background-color: #e3f2fd; 
+  border: 2px solid green;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
