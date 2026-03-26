@@ -64,6 +64,7 @@ function SimpleTable() {
     return (
         <div>
             <p1>Buscador</p1>
+            
             <input 
                 type="text"
                 value={filtering}
